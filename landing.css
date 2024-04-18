@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B5EAFC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color:#2D96F9;
+    
+    color: white;
+}
+
+.first{
+    height: 100px;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+    column-gap: 100px;
+    justify-content: space-around;
+}
+
+.primero{
+    padding-left: 50%;
+}
+
+h2{
+    height: 8px;
+}
+
+main h2{
+    text-align: center;
+}
+
+
